@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "SF PRO";
+    src: url("../fonts/SF-Pro-Text-Regular.otf");
+}
+  
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+div,
+label {
+  font-family: "SF PRO" !important;
+  color: #2E3133;
+  line-height: normal
+}
+  
+.MuiDrawer-root{
+  & .MuiListItem-root:hover{
+    background: #e1e8f0;
+  }
+}
+
+.activeLink{
+  background-color:#e1e8f0;
+  border-left: 6px solid #012954 !important;
+}
+
+
+.MuiDataGrid-columnHeader{
+  width: 800px;
+  background-color: #e8f4f8;
+}
+.MuiDataGrid-cell,.MuiDataGrid-rowHeader{
+  width: 600px; 
+}
+.dataTable {
+  width: 1280px;
+height: 819px;
+top: 178px;
+left: 128px;
+gap: 0px;
+border-radius: 12px 0px 0px 0px;
+opacity: 0px;
+
+  & .MuiDataGrid-columnHeaderTitle,
+  .MuiDataGrid-cellContent {
+      font-size: 14px;
+      font-weight: 300;
+  }
+
+  & .MuiDataGrid-columnHeaderTitle {
+      color: #288CBE;
+  }}
+
+  ::-webkit-scrollbar {
+
+    width: 8px;
+  
+    height: 8px;
+  
+  }
+  
+   
+  
+  ::-webkit-scrollbar-track {
+  
+    background: var(white);
+  
+  }
+
+  
